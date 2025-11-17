@@ -1,6 +1,9 @@
 # Transform Trello's Cards into PDF files
 This project converts a Trello file (JSON) into a well-formatted PDF.
 
+<img width="825" height="347" alt="Screenshot 2025-11-16 at 22 36 18" src="https://github.com/user-attachments/assets/f0baf82a-c2ca-40f4-a122-8d2fa217482a" />
+
+
 1. Dependencies (for mac):
 ```
 brew install pandoc
@@ -40,6 +43,7 @@ Go to your trello card and enter "Share" them click "Export JSON" and save it wi
 -----------
 
 4. Run Scripts
+
 
 Open PowerShell, certifying you are in the correct folder (that has your trello.json file) and run the following command:
 
