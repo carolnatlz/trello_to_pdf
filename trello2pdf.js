@@ -171,6 +171,7 @@ function runPandoc(mdPath, pdfPath, cwdDir, font, headerPath) {
 
     // 4) salva MD final ao lado do TXT
     const mdPath = path.join(baseDir, 'card.md');
+    md = md.replace(/!!\[/g, '![');
     await fsp.writeFile(mdPath, md, 'utf8');
 
     // 5) prepara header.tex
